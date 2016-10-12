@@ -14,6 +14,22 @@ Yarn is an open source collaboration from Facebook, Google, Exponent, and Tilde.
 
 Facebook Blog Introduction: [Yarn: A new package manager for JavaScript](https://code.facebook.com/posts/1840075619545360/yarn-a-new-package-manager-for-javascript/).
 
+- Website: <https://yarnpkg.com>
+- GitHub: <https://github.com/yarnpkg/yarn>
+
+## Installation
+
+`curl -o- -L https://yarnpkg.com/install.sh | bash`
+
+## Quickstart
+
+- `yarn` - install all dependencies (short for `yarn install`)
+- `yarn init` - create a new project and save it in package.json
+- `yarn add babel-cli` - install a dependencies and save it in package.json
+- `yarn upgrade babel-cli` - updating a dependency
+- `yarn remove babel-cli` - removing a dependency
+- `yarn run build` - run scripts
+
 ### Contact / Social Media
 
 _Get the latest News about Web Development, Open Source, Tooling, Server & Security_
