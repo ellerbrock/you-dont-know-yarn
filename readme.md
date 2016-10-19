@@ -2,7 +2,7 @@
 
 # You don't know yarn [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badges/) [![Gitter Chat](https://badges.gitter.im/frapsoft/frapsoft.svg)](https://gitter.im/frapsoft/frapsoft/)
 
-_Don't be sad, me neighter but i will write about my exeriences with it in this doc :)_
+_Don't be sad, me neighter but i will write about my journey into yarn here :)_
 
 ```
 yarn the new npm?
@@ -10,7 +10,8 @@ yarn the new npm?
 
 ## Introduction
 
-Yarn is an open source collaboration from Facebook, Google, Exponent, and Tilde. Its target is to solve problems we had with npm in the past.
+Yarn is an open source collaboration from Facebook, Google, Exponent, and Tilde.<br>
+Its target is to solve problems we had in the past with npm.
 
 Facebook Blog Introduction: [Yarn: A new package manager for JavaScript](https://code.facebook.com/posts/1840075619545360/yarn-a-new-package-manager-for-javascript/).
 
@@ -25,21 +26,19 @@ Facebook Blog Introduction: [Yarn: A new package manager for JavaScript](https:/
 
 - `yarn` - install all dependencies (short for `yarn install`)
 - `yarn init` - create a new project and save it in package.json
-- `yarn add babel-cli` - install a dependencies and save it in package.json
-- `yarn upgrade babel-cli` - updating a dependency
-- `yarn remove babel-cli` - removing a dependency
-- `yarn run build` - run scripts
+- `yarn add` - install a dependencies and save it in package.json
+- `yarn add --dev` to add to devDependencies
+- `yarn add --peer` to add to peerDependencies
+- `yarn add --optional` to add to optionalDependencies
+- `yarn upgrade` - updating a dependency
+- `yarn remove` - removing a dependency
+- `yarn run` - run scripts
 
 ### Contact / Social Media
 
 _Get the latest News about Web Development, Open Source, Tooling, Server & Security_
 
 [![Twitter](https://github.frapsoft.com/social/twitter.png)](https://twitter.com/frapsoft/)[![Facebook](https://github.frapsoft.com/social/facebook.png)](https://www.facebook.com/frapsoft/)[![Google+](https://github.frapsoft.com/social/google-plus.png)](https://plus.google.com/116540931335841862774)[![Gitter](https://github.frapsoft.com/social/gitter.png)](https://gitter.im/frapsoft/frapsoft/)[![Github](https://github.frapsoft.com/social/github.png)](https://github.com/ellerbrock/)
-
-### Development by
-
-Developer / Author: [Maik Ellerbrock](https://github.com/ellerbrock/)<br>
-Company: [Frapsoft](https://github.com/frapsoft/)
 
 ### License
 
