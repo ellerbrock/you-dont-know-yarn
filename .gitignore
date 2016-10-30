@@ -1,12 +1,2 @@
-*~
-*.log
-*.sh
-*.pid
-*.org.md
-.tscache
 ab-results*
-/template.md
 /local
-/templates
-/typings
-node_modules
